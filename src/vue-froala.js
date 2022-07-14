@@ -1,5 +1,6 @@
 import FroalaEditor from 'froala-editor';
 import {h} from "vue";
+import 'froala-editor/js/plugins.pkgd.min.js';
 export default (app, Options = {}) => {
 
   var froalaEditorFunctionality = {
